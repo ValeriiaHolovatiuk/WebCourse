@@ -1,0 +1,30 @@
+.images_inline{
+    display: inline-block;
+}
+
+.inactive_image{
+    height: 100px;
+    width: 100px;
+    border: 3px solid yellow;
+}
+
+.active_image{
+    height: 300px;
+    width: 300px;
+    border: 3px solid green;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.button_style{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
